@@ -49,7 +49,7 @@ header {
   border-radius: 50px;
   margin-right: 5px;
   margin-left: 5px;
-  box-shadow: 0 10px 25px #0088ff50;
+  box-shadow: 0 10px 100px #0088ff50;
   white-space: nowrap;
       transition: 0.3s;
 }
@@ -109,11 +109,11 @@ header {
   margin-top: 150px;
   border-radius: 50px;
   padding-right: 10px;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border-style: solid;
   border-color: #0088ff;
-  border-width: 0.2px;
+  border-width: 1.5px;
 }
 
 .about-me:hover {
@@ -149,7 +149,7 @@ header {
   backdrop-filter: blur(3px);
   font-size: 50px;
   font-family: 'Lexend Deca', sans-serif;
-  box-shadow: 0 0px 25px #ffffff50;
+  box-shadow: 0 0px 100px #ffffff50;
   border-radius: 50px;
   border: 0.01px solid #ffffff5d;
   height: 70px;
@@ -189,9 +189,9 @@ header {
   max-width: 500px;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
-  border: 0.2px solid #0088ff;
+  border: 1.5px solid #0088ff;
   font-family: 'Lexend Deca';
 
 }
@@ -255,7 +255,7 @@ header {
   display: flex;
   width: auto;
   margin: 50px;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border: 1.5px solid #0088ff;
   height: auto;
@@ -316,7 +316,7 @@ header {
   height: auto;
 
   border-radius: 40px;
-  box-shadow: 0 10px 25px #0088ff50;
+  box-shadow: 0 10px 100px #0088ff50;
   transition: 0.3s;
 }
 .plat:hover{
@@ -330,7 +330,7 @@ header {
 }
 .certi-bg {
   margin: 30px;
-  box-shadow: 0 10px 25px #0088ff50;
+  box-shadow: 0 10px 100px #0088ff50;
   margin: auto;
   border-radius: 30px;
   border-color: #0088ff;
@@ -377,7 +377,7 @@ text-align: center;
   justify-content: center;
 }
 .ex-card {
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border-style: solid;
   border-color: #0088ff;
@@ -396,7 +396,7 @@ text-align: center;
 
   width: auto;
   margin: 20px;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border: 1.5px solid #0088ff;
   height: auto;
@@ -414,7 +414,7 @@ text-align: center;
 }
 .ex-logo {
   width: 120px;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border-style: solid;
   border-color: #0088ff;
@@ -486,7 +486,7 @@ text-align: center;
   width: 100%;
   box-sizing: border-box;
 
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
 
   border-style: solid;
   border-color: #0088ff;
@@ -505,7 +505,7 @@ text-align: center;
   width: 100%;
   box-sizing: border-box;
 
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
 
   border-style: solid;
   border-color: #0088ff;
@@ -552,7 +552,7 @@ text-align: center;
   display: flex;
   font-family: 'Lexend Deca';
   border-style: solid;
-  box-shadow: 0 0px 25px #0088ff50;
+  box-shadow: 0 0px 100px #0088ff50;
   transition: 0.5s;
   border-style: solid;
   border-color: #0088ff;
@@ -566,12 +566,14 @@ footer {
 }
 /*  DON'T TOUCH THIS SETTINGS */
 @media (max-width: 768px) {
-  .nav-bar {
+  .nav-bar 
+  {
     justify-content: center;
     gap: 8px;
     padding-left: 400px;
   }
-  .nav {
+  .nav 
+  {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 3px;
@@ -579,8 +581,9 @@ footer {
     letter-spacing: 1px;
   }
   
-  .cards{
-    margin-left: 200px;
+  .cards
+  {
+    margin-left: 300px;
     width:200%;
   }
     body {
@@ -590,7 +593,7 @@ footer {
     text-align: center;
   }
   .section{
-    margin-left:550px;
+    margin-left:600px;
   }
   
 }
